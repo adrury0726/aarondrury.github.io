@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Aaron Drury's Work Experience</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h2 style="color: aquamarine">
+          I am not a product of my circumstances. <br />
+          I am a product of my decisions. <br />
+          -Stephen Covey
+        </h2>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li><a href="index.html">Who am I?</a></li>
+          <li><a href="generic.html">My Projects</a></li>
+          <li class="active"><a href="elements.html">My Experience</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Post -->
+        <section class="post">
+          <header class="major">
+            <img src="images/Coding.jpg" alt="Writing Code">
+          </header>
+
+          <main>
+            <section id="work-experience">
+                <h2>Work Experience</h2>
+                
+                <article class="job-entry">
+                    <h3>Software Developer</h3>
+                    <p class="job-dates">March 21, 2022 - Current</p>
+                    <p class="job-company">Pawnee Leasing Corporation</p>
+                    <ul class="job-description">
+                      <li>Create and enhance current features on our websites</li>
+                      <li>Write extensive code using SQL/Dynamic SQL and JavaScript, as well as
+                        enhance/debug code written in C#, React, XML, and HTML </li>
+                      <li>Speak with in-house managers to discuss new features</li>
+                      <li>Troubleshoot/Debug extensive code</li>
+                      <li>Work both individually and with a team of 6 other developers</li>
+                      <li>Assist other developers with troubleshooting code and writing new code</li>
+                    </ul>
+                </article>
+
+                <article class="job-entry">
+                  <h3>Price Digest API</h3>
+                  <p class="job-dates">March 2023 - June 2023</p>
+                  <p class="job-company">Pawnee Leasing Corporation</p>
+                  <ul class="job-description">
+                    <li> Integrate API using GET/POST Requests to retrieve necessary data using C# in
+                      Visual Studio</li>
+                    <li>Save data retrieved into appropriate tables I built in SQL Server</li>
+                    <li>Build dynamic page on our website that displays appropriate data for users using SQL
+                      and JavaScript</li>
+                    <li>Use Git for pushes to my repo</li>
+                    <li>Meet with VPs and Managers throughout the project in order to give live
+                      demos and alter requirements if necessary in order to meet expectations</li>
+                    <li>Document full extent of project for other developers to see exactly how I did everything</li>
+                  </ul>
+              </article>
+
+                <article class="job-entry">
+                  <h3>Utility Worker</h3>
+                  <p class="job-dates">March 20, 2017 - March 18, 2021</p>
+                  <p class="job-company">US Foods</p>
+                  <ul class="job-description">
+                    <li>I was hired on an Order Selector on March 20th, 2017</li>
+                    <li>I would place items on pallents in temperatures varying from -10 to 60 Degrees Fahrenheit</li>
+                    <li>Load trucks so they're able to ship orders from the warehouse to the correct restaurants 
+                      on time.
+                    </li>
+                    <li>Promoted to Utility Worker in July 2019.</li>
+                    <li>Train newly hired associates, teach OSHA regulations, mentor associates.</li>
+                    <li>If we needed help anywhere, I learned how to do everything in the warehouse, so I could 
+                      help where we needed it. This included training, loading trucks, operating Forklifts, 
+                      selecting items for customers, and operating on other large machinery.
+                    </li>
+                  </ul>
+              </article>
+            </section>
+            <section id="education">
+              <h2>Education</h2>
+              <article class="education-school">
+              <p class="job-dates"><strong>Dates attended:</strong> January 2018 - May 2021</p>
+              <p class="school-name"><strong>School Name:</strong> Colorado Technical University (CTU)</p>
+              <p class="degree"><strong>Degree:</strong> Bachelor of Computer Science</p>
+              </article>
+            </section>
+            <section id="certifications">
+              <h2>Certifications</h2>
+              <article class="education-school">
+                <ul class="certification-list">
+                  <li><strong>Udemy:</strong> Learn Python Programming Masterclass</li>
+                  <li><strong>Udemy:</strong> The Complete SQL Bootcamp 2021: Go from Zero to Hero</li>
+                  <li><strong>Udemy:</strong> Complete C# Masterclass</li>
+                  <li><strong>MongoDB, Inc:</strong> M001: MongoDB Basics</li>
+                </ul>
+              </article>
+            </section>
+            <footer>
+              <div class="pagination">
+                <a href="generic.html" class="previous">Prev</a>
+                <a href="index.html" class="page active">1</a>
+                <a href="generic.html" class="page">2</a>
+                <a href="elements.html" class="page">3</a>
+              </div>
+            </footer>
+    
+            <script>
+              const currentPage = parseInt(document.querySelector('.page.active').textContent);
+              const nextPage = currentPage + 1;
+          
+              // Define the page URLs based on your project structure
+              const pageUrls = ['index.html', 'generic.html', 'elements.html'];
+          
+              // Ensure the next page is within the bounds of your pageUrls array
+              if (nextPage >= 1 && nextPage < pageUrls.length) {
+                  const nextUrl = pageUrls[nextPage];
+                  const nextLink = document.querySelector('.next');
+                  nextLink.href = nextUrl;
+              } else {
+                  // If there's no next page, disable the "Next" link or handle it accordingly
+                  const nextLink = document.querySelector('.next');
+                  nextLink.removeAttribute('href');
+              }
+            </script>
+        </main>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <section>
+          <form method="post" action="#">
+            <div class="fields">
+          </form>
+        </section>
+        <section class="split contact">
+          <section>
+            <h3>Phone</h3>
+            <p><a href="#">(720) 532-3109</a></p>
+          </section>
+          <section>
+            <h3>Email</h3>
+            <p><a href="#">aarondrury105@yahoo.com</a></p>
+          </section>
+          <section>
+            <h3>Socials</h3>
+            <ul class="icons alt">
+              <li>
+                <a href="https://www.linkedin.com/in/aaron-drury-aaba39192/" class="icon brands fa-linkedin" target="_blank"
+                  title="LinkedIn"><span class="label">LinkedIn</span></a>
+              </li>
+              <li>
+                <a href="https://github.com/adrury0726" class="icon brands fa-github" target="_blank"
+                  title="GitHub"><span class="label">GitHub</span></a
+                >
+              </li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+
+      <!-- Copyright -->
+      <div id="copyright">
+        <ul>
+          <li>&copy; Untitled</li>
+          <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
